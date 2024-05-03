@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 1px 1px 2px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.dropbtn {
+
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    width: 500px;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.user-links {
+    /* margin-left: auto; */
+}
+
+.user-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* index.css */
+/* Main Content */
+.main-content {
+    text-align: center;
+}
+
+.main-content img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its original size */
+}
+
+
+
+
+
+.image-section {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+
+}
+
+
+
+.image-container {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    width: 200px;
+    /* height: 150px; */
+}
